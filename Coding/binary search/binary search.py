@@ -1,4 +1,6 @@
 #binary search
+#currently doesnt give you the position of the thing in the list
+#just tells you if it's there
 
 '''
 binary search algorithm
@@ -21,6 +23,7 @@ when searching for a certain item (x) in a list of items:
 		-if it is not the item, the item is not in the list
 
 '''
+
 
 def find_the_thing (the_list, the_thing):
     found=False
